@@ -41,3 +41,9 @@ java -jar ./EasyTop-0.0.1-SNAPSHOT.jar --spring.config.location=./application.pr
 
 # 客户端配置
 直接安装apk包即可
+
+# 服务端API
+| 路径              | 方法  | 描述       | 请求参数 | 响应   |
+|-----------------|-----|----------|------|------|
+| /api/sys/v1/all | GET | 获取机器运行信息 | 无    | Json |
+| /api/sys/v1/uptime    | GET | 获取在线时长   | 无    | 启动时间 |
