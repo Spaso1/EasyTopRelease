@@ -9,6 +9,9 @@ EasyTop发布页
 
 推荐Java版本: 17
 ## Linux与Windows环境
+Q:如果没有配置文件直接启动会怎么样?A:也可以启动,不过无法使用邮件报警功能,端口默认是54781
+
+
 从`Release`界面下载后首先制作配置文件`application.properties`
 ```agsl
 spring.application.name=EasyTop
